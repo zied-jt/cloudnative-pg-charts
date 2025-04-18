@@ -108,3 +108,13 @@ cluster:
 
 backups:
   enabled: false
+recovery:
+  recoveryTarget:
+    name: "my-fake-restore-point"
+    backupID: "my-fake-backup-ID"
+    immediate: true
+    exclusive: true
+    tli: "latest"
+    time: "2023-08-11 11:14:21.00000+02"
+    xid: "278394"
+    lsn: "0/0"
